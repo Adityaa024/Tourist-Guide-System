@@ -4,17 +4,54 @@ A full-featured Dynamic Web Application built with Java Servlets, JSP, JDBC, MyS
 
 ---
 
-## 📸 Application Showcase & Screenshots
+## 📸 Application Screenshots & UI Showcase
 
-### 🖥️ User Dashboard & Platform Interface
-![User Dashboard](TouristGuideSystem/WebContent/assets/images/user-dashboard.png)
+### 🖥️ Main Dashboard & Platform Screenshots
+| Home / Index View | Search Destinations |
+| :---: | :---: |
+| ![Application Screen](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image13.png) | ![Search Place](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image14.png) |
 
-### 🌐 System Architecture & Intelligent Tourism Flow
-![Intelligent Tourism System Overview](TouristGuideSystem/WebContent/assets/images/intelligent-tourism-system.jpg)
+| Tourist Place Details | User Login & Captcha |
+| :---: | :---: |
+| ![Place Details](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image15.png) | ![User Login](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image16.png) |
+
+| User Registration | User Dashboard |
+| :---: | :---: |
+| ![User Registration](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image17.png) | ![User Dashboard](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image18.png) |
+
+| Admin Login | Admin Dashboard |
+| :---: | :---: |
+| ![Admin Login](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image19.png) | ![Admin Dashboard](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image20.png) |
+
+| Add Tourist Place | View Feedback & Q&A |
+| :---: | :---: |
+| ![Add Tourist Place](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image21.png) | ![Feedback View](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image22.png) |
 
 ---
 
-## 🏞️ Popular Tourist Destinations
+## 📊 System Architecture & Data Flow Diagrams (DFD)
+
+### 👤 User Data Flow Diagram
+![User DFD](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image1.png)
+
+### 🛡️ Admin Data Flow Diagram
+![Admin DFD](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image2.png)
+
+---
+
+## 🗄️ Database Tables & Schema Overview
+
+| Admin Table | User Table | Tourist Place Table |
+| :---: | :---: | :---: |
+| ![Admin Table](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image5.jpeg) | ![User Table](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image10.jpeg) | ![Tourist Place Table](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image9.jpeg) |
+
+| Feedback Table | Contact Table | Questions & Answers Table |
+| :---: | :---: | :---: |
+| ![Feedback Table](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image8.jpeg) | ![Contact Table](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image7.JPG) | ![Questions Table](TouristGuideSystem/WebContent/assets/images/doc_screenshots/image11.jpeg) |
+
+---
+
+## 🏞️ Destination Showcase & Photos
 
 | Goa | Kerala | Jammu & Kashmir |
 | :---: | :---: | :---: |
@@ -26,36 +63,12 @@ A full-featured Dynamic Web Application built with Java Servlets, JSP, JDBC, MyS
 
 ---
 
-## 🌄 Home Banners & Hero Carousel
-
-| Scenic Landscapes | Coastal Tours | Cultural Experiences | Heritage Journeys |
-| :---: | :---: | :---: | :---: |
-| ![Banner 1](TouristGuideSystem/WebContent/images/banner1.jpg) | ![Banner 2](TouristGuideSystem/WebContent/images/banner2.jpg) | ![Banner 4](TouristGuideSystem/WebContent/images/banner4.jpg) | ![Banner 5](TouristGuideSystem/WebContent/images/banner5.jpg) |
-
----
-
 ## 🧳 Tourism Services & Amenities
 
 | Service | Service | Service |
 | :---: | :---: | :---: |
 | ![Airport Transfers](TouristGuideSystem/WebContent/images/airport-transfers.jpg)<br>**✈️ Airport Transfers** | ![Car Rentals](TouristGuideSystem/WebContent/images/car-rentals.jpg)<br>**🚗 Car & Cab Rentals** | ![Hotel Booking](TouristGuideSystem/WebContent/images/hotel-compensession.jpg)<br>**🏨 Hotel & Stay Guarantees** |
 | ![Train Booking](TouristGuideSystem/WebContent/images/trains.jpg)<br>**🚆 Train Travel** | ![24/7 Support](TouristGuideSystem/WebContent/images/customer-support.jpg)<br>**🎧 24/7 Customer Support** | ![Best Price Guarantee](TouristGuideSystem/WebContent/images/price.jpg)<br>**🏷️ Best Price Guarantee** |
-
----
-
-## 👥 Verified Tour Guides
-
-| Guide 1 | Guide 2 | Guide 3 | Guide 4 |
-| :---: | :---: | :---: | :---: |
-| ![Tour Guide 1](TouristGuideSystem/WebContent/images/guide1.jpg) | ![Tour Guide 2](TouristGuideSystem/WebContent/images/guide2.jpg) | ![Tour Guide 3](TouristGuideSystem/WebContent/images/guide3.jpg) | ![Tour Guide 4](TouristGuideSystem/WebContent/images/guide4.jpg) |
-
----
-
-## 🖼️ Destination Photo Gallery
-
-| Nature & Wildlife | Architectural Wonders | Adventure Tours | Beach Resorts |
-| :---: | :---: | :---: | :---: |
-| ![Gallery 1](TouristGuideSystem/WebContent/images/g1.jpg) | ![Gallery 4](TouristGuideSystem/WebContent/images/g4.jpg) | ![Gallery 6](TouristGuideSystem/WebContent/images/g6.jpg) | ![Gallery 8](TouristGuideSystem/WebContent/images/g8.jpg) |
 
 ---
 
@@ -96,14 +109,15 @@ Tourist Guide System + Database/
 ├── TouristGuideSystem/
 │   ├── src/                         # Java source files (Servlets, Connection, Logic)
 │   ├── WebContent/                  # Web assets (JSPs, CSS, JS, Images, WEB-INF)
-│   │   ├── assets/images/           # System screenshots & dashboard previews
+│   │   ├── assets/images/           
+│   │   │   └── doc_screenshots/     # Screenshots extracted from project documentation
 │   │   ├── images/                  # Tourist destination photos & banners
 │   │   └── upload/                  # User & admin uploaded place photos
 │   ├── .classpath                   # Eclipse project classpath configuration
 │   └── .project                     # Eclipse project definition
 ├── .gitignore                       # Git ignore file
 ├── LICENSE                          # MIT License
-└── README.md                        # Project documentation with photos
+└── README.md                        # Project documentation with photos & DFD diagrams
 ```
 
 ---

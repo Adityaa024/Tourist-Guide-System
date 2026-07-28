@@ -4,17 +4,36 @@ A full-featured Dynamic Web Application built with Java Servlets, JSP, JDBC, MyS
 
 ---
 
-## 🌟 Features
+## 📸 Screenshots & System Preview
+
+### 🖥️ User Dashboard & Interface
+![User Dashboard](TouristGuideSystem/WebContent/assets/images/user-dashboard.png)
+
+### 🌐 System Overview
+![Intelligent Tourism System Overview](TouristGuideSystem/WebContent/assets/images/intelligent-tourism-system.jpg)
+
+---
+
+## 🏞️ Featured Tourist Destinations
+
+| Destination | Destination | Destination |
+| :---: | :---: | :---: |
+| ![Goa](TouristGuideSystem/WebContent/images/goa.jpg)<br>**Goa** | ![Kerala](TouristGuideSystem/WebContent/images/kerala.jpg)<br>**Kerala** | ![Jammu & Kashmir](TouristGuideSystem/WebContent/images/jammu-kashmir.jpg)<br>**Jammu & Kashmir** |
+| ![Himachal Pradesh](TouristGuideSystem/WebContent/images/himachal.png)<br>**Himachal Pradesh** | ![Airport Transfers](TouristGuideSystem/WebContent/images/airport-transfers.jpg)<br>**Airport Transfers** | ![Car Rentals](TouristGuideSystem/WebContent/images/car-rentals.jpg)<br>**Car Rentals** |
+
+---
+
+## 🌟 Key Features
 
 ### 👤 User Module
 - **Registration & Login**: Secure user authentication and profile management.
 - **Search Destinations**: Search tourist locations by keyword, place, or category.
-- **Place Details & Maps**: View location details, images, and map guidance.
+- **Place Details & Maps**: View location details, high-resolution photos, and map guidance.
 - **Feedback & Support**: Submit feedback and ask questions via interactive forms with CAPTCHA verification.
 
 ### 🛡️ Admin Module
 - **Admin Dashboard**: Overview of key platform metrics.
-- **Manage Tourist Places**: Add, edit, update, or remove tourist spots and upload images.
+- **Manage Tourist Places**: Add, edit, update, or remove tourist spots and upload destination images.
 - **Manage Users**: View registered users and platform user activity.
 - **Feedback & Inquiries**: Review user feedback and messages.
 
@@ -41,10 +60,13 @@ Tourist Guide System + Database/
 ├── TouristGuideSystem/
 │   ├── src/                         # Java source files (Servlets, Connection, Logic)
 │   ├── WebContent/                  # Web assets (JSPs, CSS, JS, Images, WEB-INF)
+│   │   ├── assets/images/           # System screenshots & dashboard previews
+│   │   └── images/                  # Tourist destination photos & banners
 │   ├── .classpath                   # Eclipse project classpath configuration
 │   └── .project                     # Eclipse project definition
 ├── .gitignore                       # Git ignore file
-└── README.md                        # Documentation
+├── LICENSE                          # MIT License
+└── README.md                        # Project documentation with photos
 ```
 
 ---
